@@ -1,0 +1,341 @@
+/*
+Theme Name: Polaris
+Description: Used to style the TinyMCE editor.
+*/
+
+html {
+	font-size: 87.5%;
+}
+html .mceContentBody {
+	max-width: 800px;
+	margin:20px;
+}
+body {
+	color: #333;
+	font-family: 'Open Sans', Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 15px;
+    line-height: 24px;
+}
+
+
+/* =Headings
+-------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', Helvetica Neue,Helvetica,Arial,sans-serif;
+	color:#333;	
+	font-weight:600;
+	margin: 0 0 20px;
+	padding: 10px 0 0;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 15px;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin: 24px;
+}
+
+
+/* =Text elements
+-------------------------------------------------------------- */
+
+p, 
+ul, 
+ol {
+	margin: 0;
+    padding: 0 0 24px;
+}
+ul, 
+ol {
+	margin: 0 0 0 45px;
+}
+ul li, 
+ol li {
+	margin: 0 0 10px;
+}
+dl {
+	margin: 0 25px;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+dd {
+	margin: 0 0 25px;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+cite {
+	border: none;
+}
+big {
+	font-size: 128.571429%;
+}
+.mceContentBody blockquote {
+	font-style: italic;
+	margin: 0 0 20px -30px;
+    padding: 0 20px 0 30px;
+	position:relative;
+	border-left:3px solid #EC4B36;
+}
+.mceContentBody blockquote p {
+	padding:0 0 20px;
+}
+.mceContentBody blockquote p:last-of-type {
+	padding:0;
+}
+.mceContentBody blockquote cite {
+	display:block;
+	font-size:14px;	
+}
+pre {
+	border: 1px solid #ededed;
+	color: #666;
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	line-height: 1.714285714;
+	margin: 24px 0;
+	overflow: auto;
+	padding: 24px;
+}
+code,
+kbd,
+samp,
+var {
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	line-height: 2;
+}
+abbr,
+acronym,
+dfn {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address {
+	display: block;
+	line-height: 1.714285714;
+	margin: 0 0 24px;
+}
+del {
+	color: #333;
+}
+ins {
+	background: #fff9c0;
+	border: none;
+	color: #333;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+}
+textarea {
+	border: 1px solid #d5d2ca;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 1.714285714;
+	padding: 10px;
+	width: 96%;
+}
+
+
+/* =Links
+-------------------------------------------------------------- */
+
+a,
+a em,
+a strong {
+	color: #E24F3D;
+	outline: none;
+	font-weight:600;
+}
+a:focus,
+a:active,
+a:hover {
+	color: #E24F3D;
+}
+
+
+/* =Alignment
+-------------------------------------------------------------- */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 12px 24px 12px 0;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin: 12px 0 12px 24px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+
+/* =Tables
+-------------------------------------------------------------- */
+
+table {
+	border-bottom: 1px solid #ededed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #757575;
+	font-size: 12px;
+	line-height: 2;
+	margin: 0 0 24px;
+	width: 100%;
+}
+tr th {
+	color: #636363;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 2.181818182;
+	text-align: left;
+	text-transform: uppercase;
+}
+td {
+	border-top: 1px solid #ededed !important;
+	color: #757575;
+	font-size: inherit;
+	font-weight: normal;
+	padding: 6px 10px 6px 0;
+	text-align: left;
+}
+
+
+/* =Images
+-------------------------------------------------------------- */
+
+img,
+.editor-attachment {
+	border: 0;
+	max-width: 100%;
+}
+img.size-full {
+	width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.mceWPnextpage {
+	border-radius: 0;
+	box-shadow: none;
+}
+img.wp-smiley {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 4px;
+	text-align: left;
+}
+.wp-caption-dt {
+	margin: 0;
+}
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	color: #757575;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 2;
+	margin: 0 0 24px;
+}
+img.alignleft {
+	margin: 30px 30px 30px -10px;
+}
+img.alignright {
+	margin: 30px -10px 30px 30px;
+}
+img.aligncenter {
+	margin:0 -10px 20px;
+	max-width: 860px;
+}
+
+/* =Extra Styles
+-------------------------------------------------------------- */
+
+p.intro {
+	font-size: 17px;
+    line-height: 26px;
+}
+p.pullquote-left,
+p.pullquote-right {
+	border-top:3px solid #EC4B36;
+	color:#666;
+	width:30%;	
+	font-style: italic;
+	position:relative;
+	padding: 20px 0 0;
+}
+p.pullquote-left {
+	float:left;
+	margin:0 30px 30px -10px;
+}
+p.pullquote-right {
+	float:right;
+	margin:0 -10px 30px 30px;
+}

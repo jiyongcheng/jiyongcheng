@@ -1,0 +1,799 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scopic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-26 16:12+0800\n"
+"PO-Revision-Date: 2014-02-26 17:48+0800\n"
+"Last-Translator: Chris Mooney <contact@iamchrismooney.com>\n"
+"Language-Team: 谷新网络 <z@guxin.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: zh_Hans_CN\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../404.php:13
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "哎呀！这个页面不存在呢？"
+
+#: ../comments.php:28 ../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:29 ../comments.php:49
+msgid "&larr; Older Comments"
+msgstr "&larr; 旧评论"
+
+#: ../comments.php:30 ../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr "新评论 &rarr;"
+
+#: ../comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-audio.php:27 ../content-chat.php:35 ../content-gallery.php:27
+#: ../content-image.php:27 ../content-link.php:27 ../content-page.php:20
+#: ../content-quote.php:27 ../content-status.php:27 ../content-video.php:27
+#: ../content.php:23 ../framework/template-tags.php:125
+msgid "Pages:"
+msgstr ""
+
+#: ../content-entry-meta-footer.php:6
+msgid "View Post"
+msgstr "阅读文章"
+
+#: ../content-entry-meta-footer.php:9
+msgid "Add Comment"
+msgstr "添加评论"
+
+#: ../content-entry-meta-footer.php:9
+msgid "1 Comment"
+msgstr "1 评论"
+
+#: ../content-entry-meta-footer.php:9
+msgid "% Comments"
+msgstr "% 评论"
+
+#: ../content-none.php:8
+msgid "Nothing Found"
+msgstr "什么都没找到"
+
+#: ../content-none.php:11
+msgid "We apologize for any inconvenience, please "
+msgstr "我们为给您带来的任何不便表示道歉,请"
+
+#: ../content-none.php:11
+msgid "return to the home page"
+msgstr "返回到主页"
+
+#: ../content-none.php:11
+msgid " or use the search form below."
+msgstr " 或使用下面的搜索表单。"
+
+#: ../framework/comment-functions.php:29
+msgid "Pingback:"
+msgstr "通知："
+
+#: ../framework/comment-functions.php:31
+msgid "(Edit)"
+msgstr "（编辑）"
+
+#: ../framework/comment-functions.php:46
+#: ../framework/meta-box/inc/fields/file-advanced.php:103
+#: ../framework/meta-box/inc/fields/file.php:139
+#: ../framework/meta-box/inc/fields/image-advanced.php:108
+#: ../framework/meta-box/inc/fields/image.php:145
+msgid "Edit"
+msgstr "编辑"
+
+#: ../framework/comment-functions.php:47
+msgid "Reply"
+msgstr "回复"
+
+#: ../framework/comment-functions.php:53
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../framework/comment-functions.php:64
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: ../framework/comment-functions.php:91
+msgid "*"
+msgstr "*"
+
+#: ../framework/comment-functions.php:96
+msgid "Name"
+msgstr "昵称"
+
+#: ../framework/comment-functions.php:97
+msgid "Email"
+msgstr "邮箱"
+
+#: ../framework/comment-functions.php:98
+msgid "Website"
+msgstr "网站"
+
+#: ../framework/comment-functions.php:104
+msgid "Comment"
+msgstr "评论"
+
+#: ../framework/comment-functions.php:105
+#, php-format
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
+msgstr ""
+
+#: ../framework/comment-functions.php:106
+#, php-format
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "登陆中<a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: ../framework/comment-functions.php:106
+msgid "Log out &raquo;"
+msgstr "注销 &raquo;"
+
+#: ../framework/comment-functions.php:111
+msgid "Leave A Comment?"
+msgstr "留下一条评论？"
+
+#: ../framework/comment-functions.php:112
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "留下一个回复在 %s"
+
+#: ../framework/comment-functions.php:113
+msgid "Click here to cancel reply."
+msgstr "点击这里取消回复。"
+
+#: ../framework/comment-functions.php:114
+msgid "Post Comment"
+msgstr "发布评论"
+
+#: ../framework/meta-box/inc/classes/meta-box.php:252
+msgid "Please correct the errors highlighted below and try again."
+msgstr "下面突出显示的错误请纠正并再次尝试。"
+
+#: ../framework/meta-box/inc/classes/meta-box.php:426
+msgid "+"
+msgstr "+"
+
+#: ../framework/meta-box/inc/classes/meta-box.php:448
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: ../framework/meta-box/inc/fields/button.php:36
+msgid "Click me"
+msgstr "点击我"
+
+#: ../framework/meta-box/inc/fields/file-advanced.php:23
+#: ../framework/meta-box/inc/fields/plupload-image.php:106
+msgid "Select Files"
+msgstr "选择文件"
+
+#: ../framework/meta-box/inc/fields/file-advanced.php:66
+msgid "Select or Upload Files"
+msgstr "选择或上传文件"
+
+#: ../framework/meta-box/inc/fields/file-advanced.php:102
+#: ../framework/meta-box/inc/fields/file.php:138
+#: ../framework/meta-box/inc/fields/image-advanced.php:107
+#: ../framework/meta-box/inc/fields/image.php:144
+msgid "Delete"
+msgstr "删除"
+
+#: ../framework/meta-box/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr "错误:无法删除文件"
+
+#: ../framework/meta-box/inc/fields/file.php:84
+msgid "Upload Files"
+msgstr "上传文件"
+
+#: ../framework/meta-box/inc/fields/file.php:85
+msgid "+ Add new file"
+msgstr "+ 添加新文件"
+
+#: ../framework/meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr "选择图片"
+
+#: ../framework/meta-box/inc/fields/image-advanced.php:71
+msgid "Select or Upload Images"
+msgstr "选择或上传图片"
+
+#: ../framework/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:78
+#: ../framework/meta-box/inc/fields/thickbox-image.php:35
+msgid "Upload Images"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/image.php:79
+msgid "+ Add new image"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr "查找地址"
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:104
+msgid "Drop images here"
+msgstr ""
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:105
+msgid "or"
+msgstr "或"
+
+#: ../framework/meta-box/inc/fields/plupload-image.php:181
+msgid "Allowed Image Files"
+msgstr "允许图像文件"
+
+#: ../framework/meta-box/inc/fields/post.php:54
+msgid "Post"
+msgstr "文章"
+
+#: ../framework/meta-box/inc/fields/post.php:68
+#: ../framework/meta-box/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr "选择一个 %s"
+
+#: ../framework/meta-box/inc/fields/select-advanced.php:71
+msgid "Select a value"
+msgstr "选择一个值"
+
+#: ../framework/post-formats.php:27 ../framework/post-formats.php:118
+msgid "Read Post"
+msgstr ""
+
+#: ../framework/post-meta.php:35
+msgid "Post Options"
+msgstr "文章设置"
+
+#: ../framework/post-meta.php:52 ../framework/post-meta.php:101
+msgid "Sidebar Position"
+msgstr "边栏位置"
+
+#: ../framework/post-meta.php:57 ../framework/post-meta.php:106
+msgid "Sidebar Left"
+msgstr "边栏居左"
+
+#: ../framework/post-meta.php:58 ../framework/post-meta.php:107
+msgid "Sidebar Right"
+msgstr "边栏居右"
+
+#: ../framework/post-meta.php:62 ../framework/post-meta.php:111
+msgid "Sidebar Off"
+msgstr "关闭边栏"
+
+#: ../framework/post-meta.php:66
+msgid "Show \"View Post\" on Timeline?"
+msgstr "显示\"查看文章\"在时间轴吗？"
+
+#: ../framework/post-meta.php:67
+msgid ""
+"Check to show the \"view post\" link below the post on the blog timeline."
+msgstr "勾选后显示 \"查看文章\"连接按钮在你的博客. "
+
+#: ../framework/post-meta.php:84
+msgid "Page Options"
+msgstr ""
+
+#: ../framework/post-meta.php:123
+msgid "Gallery Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:140
+msgid "Gallery Image Upload"
+msgstr ""
+
+#: ../framework/post-meta.php:148 ../framework/post-meta.php:201
+#: ../framework/post-meta.php:269 ../framework/post-meta.php:329
+#: ../framework/post-meta.php:406 ../framework/post-meta.php:473
+#: ../framework/post-meta.php:548 ../framework/post-meta.php:609
+msgid "Show Title on Timeline?"
+msgstr ""
+
+#: ../framework/post-meta.php:149 ../framework/post-meta.php:202
+#: ../framework/post-meta.php:270 ../framework/post-meta.php:330
+#: ../framework/post-meta.php:407 ../framework/post-meta.php:474
+#: ../framework/post-meta.php:549 ../framework/post-meta.php:610
+msgid "Check to show the post title on the blog timeline."
+msgstr ""
+
+#: ../framework/post-meta.php:157 ../framework/post-meta.php:210
+#: ../framework/post-meta.php:278 ../framework/post-meta.php:338
+#: ../framework/post-meta.php:415 ../framework/post-meta.php:482
+#: ../framework/post-meta.php:557 ../framework/post-meta.php:618
+msgid "Show Excerpt on Timeline?"
+msgstr ""
+
+#: ../framework/post-meta.php:158 ../framework/post-meta.php:211
+#: ../framework/post-meta.php:279 ../framework/post-meta.php:339
+#: ../framework/post-meta.php:416 ../framework/post-meta.php:483
+#: ../framework/post-meta.php:558 ../framework/post-meta.php:619
+msgid "Check to show the post excerpt on the blog timeline."
+msgstr ""
+
+#: ../framework/post-meta.php:176
+msgid "Image Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:193
+msgid "Image URL (oEmbed)"
+msgstr ""
+
+#: ../framework/post-meta.php:195
+msgid ""
+"Enter the URL to your image. (Supported services: Instagram, Photobucket, "
+"SmugMug, Flickr)"
+msgstr ""
+
+#: ../framework/post-meta.php:228
+msgid "Video Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:245
+msgid "Video URL (oEmbed)"
+msgstr ""
+
+#: ../framework/post-meta.php:247
+msgid ""
+"Enter the URL to your video. (Supported services: YouTube, Vimeo, Hulu, "
+"Instagram, Qik)"
+msgstr ""
+
+#: ../framework/post-meta.php:296
+msgid "Audio Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:313
+msgid "SoundCloud URL"
+msgstr ""
+
+#: ../framework/post-meta.php:315
+msgid "Enter the URL to your SoundCloud track."
+msgstr ""
+
+#: ../framework/post-meta.php:356
+msgid "Quote Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:373
+msgid "Quote"
+msgstr ""
+
+#: ../framework/post-meta.php:389
+msgid "Quote Citation"
+msgstr ""
+
+#: ../framework/post-meta.php:393
+msgid "(Optional)"
+msgstr ""
+
+#: ../framework/post-meta.php:398
+msgid "Quote Color"
+msgstr ""
+
+#: ../framework/post-meta.php:399
+msgid ""
+"Use a custom color for the quote background.(Optional - theme color will be "
+"used by default)"
+msgstr ""
+
+#: ../framework/post-meta.php:434
+msgid "Link Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:452
+msgid "Link Title"
+msgstr ""
+
+#: ../framework/post-meta.php:459
+msgid "Link URL"
+msgstr ""
+
+#: ../framework/post-meta.php:465
+msgid "Link BG Color"
+msgstr ""
+
+#: ../framework/post-meta.php:466
+msgid ""
+"Use a custom color for the link background.(Optional - theme color will be "
+"used by default)"
+msgstr ""
+
+#: ../framework/post-meta.php:500
+msgid "Status Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:517
+msgid "Twitter Status"
+msgstr ""
+
+#: ../framework/post-meta.php:519
+msgid "Enter the URL to your Tweet."
+msgstr ""
+
+#: ../framework/post-meta.php:524
+msgid "Custom Status"
+msgstr ""
+
+#: ../framework/post-meta.php:526
+msgid "Enter a custom status."
+msgstr ""
+
+#: ../framework/post-meta.php:540
+msgid "Custom Status Color"
+msgstr ""
+
+#: ../framework/post-meta.php:541
+msgid ""
+"Use a custom color for the status background.(Optional - theme color will be "
+"used by default)"
+msgstr ""
+
+#: ../framework/post-meta.php:576
+msgid "Chat Post Format"
+msgstr ""
+
+#: ../framework/post-meta.php:593
+msgid "Chat Transcript"
+msgstr ""
+
+#: ../framework/register-sidebars.php:11
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../framework/register-sidebars.php:37
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../framework/template-tags.php:22
+msgid "<i class=\"icon-angle-left\"></i>"
+msgstr ""
+
+#: ../framework/template-tags.php:23
+msgid "<i class=\"icon-angle-right\"></i>"
+msgstr ""
+
+#: ../framework/template-tags.php:28
+msgid "<i class=\"icon-chevron-left\"></i>"
+msgstr ""
+
+#: ../framework/template-tags.php:32
+msgid "<i class=\"icon-chevron-right\"></i>"
+msgstr ""
+
+#: ../framework/template-tags.php:51
+#, php-format
+msgid "%1$s ago"
+msgstr "%1$s 前"
+
+#: ../framework/template-tags.php:56
+#, php-format
+msgid "Posted: <time datetime=\"%1$s\">%2$s</time>"
+msgstr ""
+
+#: ../framework/template-tags.php:60
+msgid " in "
+msgstr ""
+
+#: ../framework/template-tags.php:63
+#, php-format
+msgid "<time datetime=\"%1$s\">%2$s</time>"
+msgstr ""
+
+#: ../framework/template-tags.php:87
+msgid "just now"
+msgstr ""
+
+#: ../framework/template-tags.php:89
+msgid "moments ago"
+msgstr "小时 前"
+
+#: ../framework/template-tags.php:91
+msgid "ago"
+msgstr ""
+
+#: ../framework/template-tags.php:103
+#, php-format
+msgid ""
+"<span class=\"entry-meta-date\"><time datetime=\"%1$s\">%2$s</time></span>"
+msgstr ""
+
+#: ../framework/theme-customizer.php:28
+msgid "Header"
+msgstr ""
+
+#: ../framework/theme-customizer.php:40
+msgid "Site Title"
+msgstr ""
+
+#: ../framework/theme-customizer.php:51
+msgid "Tagline"
+msgstr ""
+
+#: ../framework/theme-customizer.php:207
+msgid "Background"
+msgstr ""
+
+#: ../framework/theme-customizer.php:216
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/widgets/widget-flickr.php:24
+msgid "A widget that displays your Flickr photos."
+msgstr "一个小工具显示你的Flickr照片。"
+
+#: ../framework/widgets/widget-flickr.php:31
+msgid "Custom Flickr Photos"
+msgstr "自定义 Flickr 照片"
+
+#: ../framework/widgets/widget-flickr.php:113
+msgid "Title:"
+msgstr "标题："
+
+#: ../framework/widgets/widget-flickr.php:119
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: ../framework/widgets/widget-flickr.php:125
+msgid "Number of Photos:"
+msgstr "照片数量："
+
+#: ../framework/widgets/widget-flickr.php:131
+msgid "Type (user or group):"
+msgstr "类型(用户或组):"
+
+#: ../framework/widgets/widget-flickr.php:140
+msgid "Display (random or latest):"
+msgstr "显示(随机或最新):"
+
+#: ../framework/widgets/widget-posts.php:18
+msgid "Custom Posts Widget"
+msgstr "自定义文章小工具"
+
+#: ../framework/widgets/widget-posts.php:21
+msgid "A widget for displaying posts."
+msgstr "一个小工具用于显示文章。（谷新网络-汉化支持）"
+
+#: ../framework/widgets/widget-posts.php:169
+#: ../framework/widgets/widget-posts.php:187
+msgid "Title"
+msgstr "标题"
+
+#: ../framework/widgets/widget-posts.php:176
+msgid "Number of posts to show"
+msgstr "显示文章数量"
+
+#: ../framework/widgets/widget-posts.php:183
+msgid "Sort by"
+msgstr "排序方式"
+
+#: ../framework/widgets/widget-posts.php:186 ../options.php:121
+msgid "Date"
+msgstr ""
+
+#: ../framework/widgets/widget-posts.php:188
+msgid "Number of comments"
+msgstr "评论数"
+
+#: ../framework/widgets/widget-posts.php:189
+msgid "Random"
+msgstr "随机"
+
+#: ../framework/widgets/widget-posts.php:199
+msgid "Reverse sort order (ascending)"
+msgstr "反向排序(升序)"
+
+#: ../framework/widgets/widget-posts.php:205
+msgid "Show number of comments"
+msgstr "显示留言数"
+
+#: ../framework/widgets/widget-posts.php:211
+msgid "Show post date"
+msgstr "显示发布日期"
+
+#: ../framework/widgets/widget-posts.php:218
+msgid "Show post thumbnail"
+msgstr "显示文章缩略图"
+
+#: ../functions.php:30
+msgid "Primary Navigation"
+msgstr ""
+
+#: ../header.php:39 ../header.php:53
+msgid "Menu"
+msgstr ""
+
+#: ../header.php:83
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../header.php:87
+msgid "Tagged: "
+msgstr ""
+
+#: ../header.php:89
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../header.php:91
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../header.php:93
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../options.php:32
+msgid "One"
+msgstr ""
+
+#: ../options.php:33
+msgid "Two"
+msgstr ""
+
+#: ../options.php:34
+msgid "Three"
+msgstr ""
+
+#: ../options.php:35
+msgid "Four"
+msgstr ""
+
+#: ../options.php:36
+msgid "Five"
+msgstr ""
+
+#: ../options.php:41
+msgid "French Toast"
+msgstr ""
+
+#: ../options.php:42
+msgid "Pancake"
+msgstr ""
+
+#: ../options.php:43
+msgid "Omelette"
+msgstr ""
+
+#: ../options.php:44
+msgid "Crepe"
+msgstr ""
+
+#: ../options.php:45
+msgid "Waffle"
+msgstr ""
+
+#: ../options.php:106
+msgid "Post Settings"
+msgstr ""
+
+#: ../options.php:110
+msgid "Post Meta"
+msgstr ""
+
+#: ../options.php:111
+msgid "Select whichpost  meta information to show with your posts."
+msgstr ""
+
+#: ../options.php:122
+msgid "Author"
+msgstr ""
+
+#: ../options.php:123
+msgid "Category"
+msgstr ""
+
+#: ../options.php:124
+msgid "Tags"
+msgstr ""
+
+#: ../options.php:125
+msgid "Comments"
+msgstr "评论"
+
+#: ../options.php:131
+msgid "Show Author Box?"
+msgstr "显示作者盒子？"
+
+#: ../options.php:132
+msgid ""
+"Check to show an author box at the end of blog posts. (Note: The author must "
+"have a bio for the box to show)."
+msgstr ""
+
+#: ../options.php:138
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../options.php:141
+msgid "Archive Sidebar Position"
+msgstr ""
+
+#: ../options.php:142
+msgid "Select or disable the position of the sidebar on arhive pages."
+msgstr ""
+
+#: ../options.php:152
+msgid "Author Sidebar Position"
+msgstr ""
+
+#: ../options.php:153
+msgid "Select or disable the position of the sidebar on author pages."
+msgstr ""
+
+#: ../options.php:163
+msgid "Category Sidebar Position"
+msgstr ""
+
+#: ../options.php:164
+msgid "Select or disable the position of the sidebar on category pages."
+msgstr ""
+
+#: ../options.php:174
+msgid "Blog Index Sidebar Position"
+msgstr ""
+
+#: ../options.php:175
+msgid ""
+"Select or disable the position of the sidebar on blog pages. (The blog post "
+"sidebar positon can be modifed on a per post basis)."
+msgstr ""
+
+#: ../options.php:185
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: ../options.php:186
+msgid ""
+"Select or disable the position of the sidebar on the search result pages."
+msgstr ""
+
+#: ../options.php:196
+msgid "Tag Sidebar Position"
+msgstr ""
+
+#: ../options.php:197
+msgid "Select or disable the position of the sidebar on the tag index pages."
+msgstr ""
+
+#: ../options.php:208
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../options.php:213
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:214
+msgid "Add some CSS to your theme by adding it to this box."
+msgstr ""
