@@ -16,3 +16,5 @@ personal website
 fix bug
 
 ###my feature
+
+bump version 0.0.3
